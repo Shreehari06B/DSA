@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+   float t;
+   printf("   TEMPERATURE MONITOR \n");
+   printf("Input the temperature in celsius: ");
+   scanf("%f",&t);
+   if (20<=t & t<=30)
+   {
+       printf("\nNormal");
+   }
+  
+   else 
+   {
+       printf("\nWarning");
+   }
+}
